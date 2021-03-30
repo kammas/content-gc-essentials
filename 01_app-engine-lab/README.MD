@@ -7,7 +7,7 @@ gsutil mb -c regional -l us-east1 gs://pkammas-bucket
 gsutil iam ch allUsers:objectViewer gs://pkammas-bucket
 ```
 
-git clone https://github.com/linuxacademy/content-gc-essentials
+git clone https://github.com/kammas/content-gc-essentials
 cd content-gc-essentials/app-engine-lab
 
 gcloud config set app/cloud_build_timeout 6000s
